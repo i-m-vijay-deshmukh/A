@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("main-content").style.display = "block";
 
     // Navigation Logic
-    document.getElementById("weather-section").addEventListener("click", () => {
+    document.getElementById("weather/weather-section").addEventListener("click", () => {
         window.location.href = "weather.html";
     });
     
